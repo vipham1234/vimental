@@ -1,0 +1,609 @@
+/*-----GLOBAL STYLES-----*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 1400px;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    width: 1400px;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+h2, h3 {
+    text-align: center;
+    margin: 0
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 1em 1em;
+    color: #000000;
+}
+
+.content-title {
+    background-color:#045c7c;
+    margin: 0;
+    padding: 1em 1em;
+}
+
+.aboutus {
+    margin-bottom: 1em;
+}
+.about-text {
+    color: #ffffff;
+
+}
+
+.equity {
+    background-color: #55b5ac;
+    margin-bottom: 1em;
+}
+.equity-text {
+    color: #ffffff;
+    background-color: #045c7c;
+    margin: 0;
+    padding: 1em 1em;
+}
+
+.support-equity {
+    background-color: #c8e3e2;
+    color: #045c7c;
+    margin: 0;
+    padding: 0.5em 0.5em;
+}
+
+.equity p {
+    color: #ffffff;
+}
+
+.imgmain {
+   padding-left: 1em;
+}
+
+.imgdiversity {
+    padding-bottom: 0.5em;
+    padding-left: 0.5em;
+}
+
+.imgmember {
+    padding-left: 1em;
+    padding-bottom: 0.5em;
+}
+
+.imgmembers {
+    padding-left: 1em;
+}
+/*-----CARD-----*/
+
+.card-title {
+    color: #045c7c;
+    margin: 0;
+    padding: 1em 1em;
+    background-color: rgba(90, 160, 141, 0.55);
+}
+
+.card-flower {
+    color: #045c7c;
+    margin: 0;
+    padding: 1em 1em;
+    background-color: rgba(90, 160, 141, 0.55);
+}
+
+.card {
+    padding-top: 0;
+    padding-bottom: 1em;
+    text-align: center;
+   background-color: #c8e3e2;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 10px;
+    background-color: #ffffff;
+}
+
+/*-----PROJECT CARD-----*/
+
+.ourproject p {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+.container2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 0 10px 0 10px;
+    grid-column-gap: 10px
+}
+
+.project-info {
+    margin: 0;
+    padding: 0;
+   text-align: start;
+}
+
+.card-title2 {
+    color: #045c7c;
+    margin: 0;
+    padding: 1em 1em;
+    background-color: rgba(90, 160, 141, 0.55);
+    height: 100px;
+   text-align: center;
+}
+
+.cardrow {
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+    background-color: #c8e3e2;
+    width: 450px;
+}
+
+/*-----MEDIA CARD-----*/
+
+.media-info {
+    margin: 0;
+    padding: 0;
+   text-align: start;
+}
+
+.card-title3 {
+    color: #ffffff;
+    margin: 0;
+    padding: 1em 1em;
+    background-color: #045c7c;
+    height: 100px;
+   text-align: center;
+}
+
+.cardrow3 {
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+    background-color: rgba(90, 160, 141, 0.55);;
+    width: 685px;
+    height: 250px;
+    
+}
+
+.cardrow3 p {
+    color: #000000;
+}
+.media-title {
+    text-align: center;
+    font-weight: bold;
+    margin: 0 0 1em 0;
+    padding: 1em 0 1em;
+    color: #c8e3e2;
+    background-color: #045c7c;
+}
+
+.more-info {
+    margin: 10px 10px 10px 10px;
+    padding: 0;
+    background-color: #c8e3e2;
+}
+  
+.container3 {
+    display: grid;
+    grid-template-columns: auto auto ;
+    margin: 0 10px 0 10px;
+    grid-column-gap: 10px
+}
+
+/*-----MEMBERSHIP CARD-----*/
+
+.ourproject1 {
+    margin-top: 0;
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+    font-size: 18px; 
+    color: #c8e3e2;
+    background-color: #c8e3e2;
+}
+
+.cardrow4 {
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+    background-color: rgba(90, 160, 141, 0.55);;
+    width: 685px;
+    height: 250px;
+}
+
+/*-----CONTACT CARD-----*/
+
+.cardrow5 {
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+    background-color: rgba(90, 160, 141, 0.55);;
+    width: 450px;
+    height: 210px;
+}
+
+.cardrow5 p {
+    text-align: center;
+}
+
+/*----STYLES------*/
+
+#wrapper {
+    display: flex;
+    position: relative;
+    max-width: 1400px;
+    margin: 0 ;
+    flex-flow: column wrap;
+}
+
+header {
+	height: 400px;
+	background: url(image/mental.jpeg) ; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+header h1 {
+   visibility: hidden;
+}
+
+.logomain {
+    display: block;
+    margin: 0 4px;
+    padding: 0;
+    width: 350px;
+    height: 100px;
+    
+}
+
+nav {
+
+    background-color: rgba(255, 255, 255, 0.76);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 18px;
+
+}
+
+nav a {
+    color: #045c7c;
+    text-decoration: none;
+    display: block;
+    padding: 8px;
+    
+}
+
+nav a:hover {
+    background-color:rgba(53, 172, 212, 0.52);
+}
+
+nav a:visited {
+    color: #3a57d4;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0 1em 0 0;
+}
+
+nav li {
+    text-align: center;
+}
+
+h2 {
+    color: #ffffff;
+}
+
+footer {
+    width: 1400px;
+    height: 80px;
+    background: #045c7c;
+    font-weight: bold;
+    font-size: 1em;  
+}
+
+footer p {
+    color: #ffffff;
+    text-align: center;
+    margin-top: 1em;
+}
+
+/*-----MEDIA QUERIES MEDIUM SCREEN-----*/
+
+@media only screen and (max-width: 768px) {
+    
+    html {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+    }
+    
+    nav {
+       
+        width: 768px;
+        height: 100px;
+        font-size: 15px;
+    }
+    
+    nav ul {
+        grid-gap: 10px;
+    }
+    
+   header {
+        width: 768px;
+       height: 250px;}
+    
+    .logomain {
+        width: 250px;
+        height: 75px;
+    }
+    
+    .about , .content-title, .media-title {
+       display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        width: 768px;
+    }
+    
+    .container {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto ;
+        width: 768px;
+        font-size: 15px;
+        margin-left: 0;
+    }
+    
+    .card {
+        margin-right: 1.5em;
+    }
+    
+    .ourproject p {
+        font-size: 15px;
+        width: 768px;
+    }
+    .p {
+        font-size: 15px;
+        width: 768px;
+    }
+    
+    .container2 {
+        display: grid;
+        grid-template-columns: auto auto ;
+        grid-template-rows: auto ;
+     width: 768px;
+        font-size: 15px;
+        margin-left: 0px;
+    }
+    
+    .cardrow {
+        width: 384px;
+    }
+    
+     .container3 {
+        display: grid;
+        grid-template-columns: auto auto ;
+        grid-template-rows: auto ;
+     width: 768px;
+        font-size: 15px;
+        margin-left: 0px;
+    }
+    .cardrow3, .cardrow5, .cardrow4 {
+        width: 384px;
+        height: auto;
+    }
+    
+    .card-title3 {
+        height: 120px;
+        font-size: 15x;
+    }
+    
+    .ourproject1 p {
+        font-size: 15px;
+        width: 768px;
+    }
+    
+    .memberlist  {
+        width: 768px;
+        font-size: 15px;
+    }
+    
+     footer{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        max-width: 768px; 
+        
+    }
+    
+    .imgmain {
+        padding-left: 10px;
+        width: 240px;
+        height: 157px;
+    }
+    
+    .imgmaindoc {
+        padding-left: 10px;
+        width: 275px;
+        height: 157px;
+    }
+    
+    .imgdiversity {
+        padding-left: 10px;
+        width: 300px;
+        height: 200px;
+    }
+    
+    .imgmembers {
+        padding-left: 10px;
+        width: 120px;
+        height: 45px;
+    }
+    }
+
+    
+/*-----MEDIA QUERIES SMALL SCREEN-----*/
+
+@media only screen and (max-width: 600px) {
+    
+   html {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+    }
+    
+    nav {
+       display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        width: 600px;
+        height: 100px;
+        font-size: 14px;
+    }
+    
+    nav ul {
+        grid-gap: 5px;
+    }
+    
+   header {
+        width: 600px;
+       height: 200px;}
+    
+    .logomain {
+        width: 180px;
+        height: 50px;
+    }
+    
+    .about , .content-title, .media-title {
+       display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        width: 600px;
+    }
+    
+    .container {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto ;
+        width: 600px;
+        font-size: 14px;
+        margin-left: 0;
+    }
+    
+    .card {
+        margin-right: 1.5em;
+    }
+    
+    .ourproject p {
+        font-size: 14px;
+        width: 600px;
+    }
+    .p {
+        font-size: 14px;
+        width: 600px;
+    }
+    
+    .container2 {
+        display: grid;
+        grid-template-columns: auto auto ;
+        grid-template-rows: auto ;
+     width: 600px;
+        font-size: 14px;
+        margin-left: 0px;
+    }
+    
+    .cardrow {
+        width: 300px;
+    }
+    
+     .container3 {
+        display: grid;
+        grid-template-columns: auto auto ;
+        grid-template-rows: auto ;
+     width: 600px;
+        font-size: 14px;
+        margin-left: 0px;
+    }
+    .cardrow3, .cardrow5, .cardrow4 {
+        width: 300px;
+        height: auto;
+    }
+    
+    .card-title3 , .card-title2 {
+        height: 80px;
+        font-size: 16px;
+    }
+    
+    .ourproject1 p {
+        font-size: 14px;
+        width: 600px;
+    }
+    
+    .memberlist  {
+        width: 600px;
+        font-size: 14px;
+    }
+    
+   footer{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+       max-width: 600px; }
+    
+    
+    .imgmain {
+        padding-left: 10px;
+        width: 175px;
+        height: 127px;
+    }
+    
+    .imgmaindoc {
+        padding-left: 10px;
+        width: 230px;
+        height: 127px;
+    }
+    
+    .imgdiversity {
+        padding-left: 10px;
+        width: 220px;
+        height: 160px;
+    }
+    
+    .imgmembers {
+        padding-left: 5px;
+        width: 95px;
+        height: 30px;
+    }
+    
+    .imgmember {
+        padding-left: 8px;
+    }
+}
